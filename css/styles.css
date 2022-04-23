@@ -42,7 +42,7 @@ body {
 }
 
 .header-msg {
-    /* font-family: Poppins; */
+    font-family: Poppins;
     font-size: 70px;
     font-weight: 300;
     line-height: 91%;
@@ -378,7 +378,7 @@ body {
         padding-right: 0px;
     }
     .header-msg {
-        font-size: 40px;
+        font-size: 30px;
         line-height: 91%;
     }
     .promo-info {
