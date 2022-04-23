@@ -1,0 +1,400 @@
+body {
+    background: url('../assets/images/background.png');
+    text-align: center;
+}
+
+.content {
+    padding: 50px 50px;
+    position: relative;
+    text-align: center;
+}
+
+.main-content {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 204px;
+    padding-right: 204px;
+}
+
+.top-image {
+    position: absolute;
+    text-align: center;
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+}
+
+.top-image img {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    font-size: 16px;
+}
+
+.header-info {
+    color: #ffffff;
+    padding-left: 204px;
+    padding-right: 204px;
+}
+
+.header-msg {
+    /* font-family: Poppins; */
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 91%;
+    letter-spacing: -1.5%;
+}
+
+.header-msg strong {
+    font-weight: 800;
+}
+
+.promo-info {
+    font-weight: 300 !important;
+    font-size: 29.43px;
+    line-height: 131%;
+    letter-spacing: -6%;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.promo-info strong {
+    font-weight: 800 !important;
+}
+
+.game-info-container {
+    padding: 20px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%) !important;
+    border-top: 2px solid rgba(255, 255, 255, 0.24);
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.24);
+    margin-left: 340px !important;
+    margin-right: 340px !important;
+}
+
+.game-warning {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    text-align: left !important;
+}
+
+.game-info {
+    text-align: left !important;
+    font-size: 14px;
+}
+
+.footer-image {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-image img {
+    height: auto;
+}
+
+@media screen and (max-width: 1480px) {
+    .main-content {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .top-image {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+    .header-info {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .header-msg {
+        font-size: 70px;
+        line-height: 91%;
+    }
+    .promo-info {
+        font-size: 29.43px;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    .game-info-container {
+        margin-left: 260px !important;
+        margin-right: 260px !important;
+        padding: 20px;
+    }
+    .footer-image img {
+        width: 40%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1316px) {
+    .main-content {
+        padding-left: 190px;
+        padding-right: 190px;
+    }
+    .top-image {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+    .header-info {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .header-msg {
+        font-size: 70px;
+        line-height: 91%;
+    }
+    .promo-info {
+        font-size: 29.43px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .game-info-container {
+        margin-left: 200px !important;
+        margin-right: 200px !important;
+        padding: 20px;
+    }
+    .footer-image img {
+        width: 40%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .main-content {
+        padding-left: 190px;
+        padding-right: 190px;
+    }
+    .top-image {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+    .header-info {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .header-msg {
+        font-size: 60px;
+        line-height: 91%;
+    }
+    .promo-info {
+        font-size: 20.43px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .game-info-container {
+        margin-left: 100px !important;
+        margin-right: 100px !important;
+        padding: 20px;
+    }
+    .footer-image img {
+        width: 40%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main-content {
+        padding-left: 84px;
+        padding-right: 84px;
+    }
+    .top-image {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+    .header-info {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .header-msg {
+        font-size: 60px;
+        line-height: 91%;
+    }
+    .promo-info {
+        font-size: 20.43px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .game-info-container {
+        margin-left: 100px !important;
+        margin-right: 100px !important;
+        padding: 20px;
+    }
+    .footer-image img {
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main-content {
+        padding-left: 84px;
+        padding-right: 84px;
+    }
+    .top-image {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+    .header-info {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .header-msg {
+        font-size: 60px;
+        line-height: 91%;
+    }
+    .promo-info {
+        font-size: 20.43px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .game-info-container {
+        margin-left: 100px !important;
+        margin-right: 100px !important;
+        padding: 20px;
+    }
+    .footer-image img {
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .top-image {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+    .header-info {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .header-msg {
+        font-size: 40px;
+        line-height: 91%;
+    }
+    .promo-info {
+        font-size: 16px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .game-info-container {
+        margin-left: 100px !important;
+        margin-right: 100px !important;
+        padding: 20px;
+    }
+    .footer-image img {
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .main-content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .top-image {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .header-info {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .header-msg {
+        font-size: 40px;
+        line-height: 91%;
+    }
+    .promo-info {
+        font-size: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .game-info-container {
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+        padding: 20px;
+    }
+    .footer-image img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main-content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .top-image {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .header-info {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .header-msg {
+        font-size: 40px;
+        line-height: 91%;
+    }
+    .promo-info {
+        font-size: 16px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .game-info-container {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-image img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main-content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .top-image {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .header-info {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .header-msg {
+        font-size: 40px;
+        line-height: 91%;
+    }
+    .promo-info {
+        font-size: 16px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .game-info-container {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-image img {
+        width: 100%;
+        height: auto;
+    }
+}
