@@ -43,15 +43,15 @@
     }
     
     .header-msg {
-        font-family: Poppins;
+        font-family: Poppins !important;
         font-size: 70px;
-        font-weight: 300;
+        font-weight: 300 !important;
         line-height: 91%;
         letter-spacing: -1.5%;
     }
     
-    .header-msg strong {
-        font-weight: 800;
+    .header-msg span {
+        font-weight: 700 !important;
     }
     
     .promo-info {
@@ -61,10 +61,11 @@
         letter-spacing: -6%;
         padding-left: 90px;
         padding-right: 90px;
+        font-family: Inter !important;
     }
     
-    .promo-info strong {
-        font-weight: 800 !important;
+    .promo-info span {
+        font-weight: 700 !important;
     }
     
     .game-info-container {
@@ -75,6 +76,7 @@
         box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.24);
         margin-left: 340px !important;
         margin-right: 340px !important;
+        font-family: Inter !important;
     }
     
     .game-warning {
@@ -100,7 +102,6 @@
         font-family: Inter;
         font-weight: 600;
         line-height: 16.94px;
-        /* padding: 16px; */
     }
     
     .date-area {
@@ -157,7 +158,7 @@
         margin-left: 40px;
         animation-duration: 6s;
         animation-iteration-count: infinite;
-        animation-name: bounce;
+        animation-name: float;
         animation-timing-function: linear;
     }
     
@@ -165,11 +166,11 @@
         margin-right: 30px;
         animation-duration: 4s;
         animation-iteration-count: infinite;
-        animation-name: bounce;
+        animation-name: float;
         animation-timing-function: linear;
     }
     
-    @keyframes bounce {
+    @keyframes float {
         0% {
             transform: translateY(0);
         }
@@ -737,7 +738,7 @@
         }
         body{
             position: fixed;
-				height: calc(100vh - 0px);
+				height: calc(100vh - 10px);
         }
         .footer-image img {
             width: 60%;
