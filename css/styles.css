@@ -1,430 +1,1001 @@
-body {
-    background: url('../assets/images/background.png');
-    text-align: center;
-}
-
-.content {
-    padding: 50px 50px;
-    position: relative;
-    text-align: center;
-}
-
-.main-content {
-    position: relative;
-    top: 0px;
-    width: 100%;
-    text-align: center;
-    color: #ffffff;
-    padding-left: 204px;
-    padding-right: 204px;
-}
-
-.top-image {
-    position: absolute;
-    text-align: center;
-    padding-left: 200px !important;
-    padding-right: 200px !important;
-}
-
-.top-image img {
-    width: 100%;
-    height: auto;
-}
-
-.header {
-    font-size: 16px;
-}
-
-.header-info {
-    color: #ffffff;
-    padding-left: 204px;
-    padding-right: 204px;
-}
-
-.header-msg {
-    font-family: Poppins;
-    font-size: 70px;
-    font-weight: 300;
-    line-height: 91%;
-    letter-spacing: -1.5%;
-}
-
-.header-msg strong {
-    font-weight: 800;
-}
-
-.promo-info {
-    font-weight: 300 !important;
-    font-size: 29.43px;
-    line-height: 131%;
-    letter-spacing: -6%;
-    padding-left: 90px;
-    padding-right: 90px;
-}
-
-.promo-info strong {
-    font-weight: 800 !important;
-}
-
-.game-info-container {
-    padding: 20px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%) !important;
-    border-top: 2px solid rgba(255, 255, 255, 0.24);
-    border-radius: 8px;
-    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.24);
-    margin-left: 340px !important;
-    margin-right: 340px !important;
-}
-
-.game-warning {
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 8px;
-    text-align: left !important;
-    font-size: 12px;
-}
-
-.game-info {
-    text-align: left !important;
-    font-size: 14px;
-}
-
-.btn-warning {
-    background-color: #ECAB03 !important;
-    height: 56px !important;
-    width: 225px !important;
-}
-
-.btn-txt {
-    font-size: 14px !important;
-    /* padding: 16px; */
-}
-
-.footer-image {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    text-align: center;
-}
-
-.footer-image img {
-    height: auto;
-}
-
-@media screen and (max-width: 1480px) {
+    body {
+        background: url('../assets/images/background.png');
+        text-align: center;
+        position: fixed;
+    }
+    
+    .content {
+        padding: 50px 50px;
+        position: relative;
+        text-align: center;
+    }
+    
     .main-content {
-        padding-left: 200px;
-        padding-right: 200px;
+        position: relative;
+        top: 0px;
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        padding-left: 204px;
+        padding-right: 204px;
     }
+    
     .top-image {
-        padding-left: 100px !important;
-        padding-right: 100px !important;
+        position: absolute;
+        text-align: center;
+        padding-left: 200px !important;
+        padding-right: 200px !important;
     }
-    .header-info {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-    .header-msg {
-        font-size: 70px;
-        line-height: 91%;
-    }
-    .promo-info {
-        font-size: 29.43px;
-        padding-left: 120px;
-        padding-right: 120px;
-    }
-    .game-info-container {
-        margin-left: 260px !important;
-        margin-right: 260px !important;
-        padding: 20px;
-    }
-    .footer-image img {
-        width: 40%;
+    
+    .top-image img {
+        width: 100%;
         height: auto;
     }
-}
-
-@media screen and (max-width: 1316px) {
-    .main-content {
-        padding-left: 190px;
-        padding-right: 190px;
-    }
-    .top-image {
-        padding-left: 100px !important;
-        padding-right: 100px !important;
-    }
-    .header-info {
-        padding-left: 70px;
-        padding-right: 70px;
-    }
-    .header-msg {
-        font-size: 70px;
-        line-height: 91%;
-    }
-    .promo-info {
-        font-size: 29.43px;
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-    .game-info-container {
-        margin-left: 200px !important;
-        margin-right: 200px !important;
-        padding: 20px;
-    }
-    .footer-image img {
-        width: 40%;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .main-content {
-        padding-left: 190px;
-        padding-right: 190px;
-    }
-    .top-image {
-        padding-left: 100px !important;
-        padding-right: 100px !important;
-    }
-    .header-info {
-        padding-left: 70px;
-        padding-right: 70px;
-    }
-    .header-msg {
-        font-size: 60px;
-        line-height: 91%;
-    }
-    .promo-info {
-        font-size: 20.43px;
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-    .game-info-container {
-        margin-left: 100px !important;
-        margin-right: 100px !important;
-        padding: 20px;
-    }
-    .footer-image img {
-        width: 40%;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .main-content {
-        padding-left: 84px;
-        padding-right: 84px;
-    }
-    .top-image {
-        padding-left: 100px !important;
-        padding-right: 100px !important;
-    }
-    .header-info {
-        padding-left: 70px;
-        padding-right: 70px;
-    }
-    .header-msg {
-        font-size: 60px;
-        line-height: 91%;
-    }
-    .promo-info {
-        font-size: 20.43px;
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-    .game-info-container {
-        margin-left: 160px !important;
-        margin-right: 160px !important;
-        padding: 20px;
-    }
-    .footer-image img {
-        width: 60%;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .main-content {
-        padding-left: 84px;
-        padding-right: 84px;
-    }
-    .top-image {
-        padding-left: 100px !important;
-        padding-right: 100px !important;
-    }
-    .header-info {
-        padding-left: 70px;
-        padding-right: 70px;
-    }
-    .header-msg {
-        font-size: 60px;
-        line-height: 91%;
-    }
-    .promo-info {
-        font-size: 20.43px;
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-    .game-info-container {
-        margin-left: 100px !important;
-        margin-right: 100px !important;
-        padding: 20px;
-    }
-    .footer-image img {
-        width: 60%;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .main-content {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .top-image {
-        padding-left: 100px !important;
-        padding-right: 100px !important;
-    }
-    .header-info {
-        padding-left: 70px;
-        padding-right: 70px;
-    }
-    .header-msg {
-        font-size: 40px;
-        line-height: 91%;
-    }
-    .promo-info {
+    
+    .header {
         font-size: 16px;
-        padding-left: 80px;
-        padding-right: 80px;
     }
+    
+    .header-info {
+        color: #ffffff;
+        padding-left: 204px;
+        padding-right: 204px;
+    }
+    
+    .header-msg {
+        font-family: Poppins;
+        font-size: 70px;
+        font-weight: 300;
+        line-height: 91%;
+        letter-spacing: -1.5%;
+    }
+    
+    .header-msg strong {
+        font-weight: 800;
+    }
+    
+    .promo-info {
+        font-weight: 300 !important;
+        font-size: 29.43px;
+        line-height: 131%;
+        letter-spacing: -6%;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    
+    .promo-info strong {
+        font-weight: 800 !important;
+    }
+    
     .game-info-container {
+        padding: 20px;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%) !important;
+        border-top: 2px solid rgba(255, 255, 255, 0.24);
+        border-radius: 8px;
+        box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.24);
+        margin-left: 340px !important;
+        margin-right: 340px !important;
+    }
+    
+    .game-warning {
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+        text-align: left !important;
+        font-size: 12px;
+    }
+    
+    .game-info {
+        text-align: left !important;
+        font-size: 14px;
+    }
+    
+    .btn-warning {
+        background-color: #ECAB03 !important;
+        height: 56px !important;
+        width: 225px !important;
+    }
+    
+    .btn-txt {
+        font-size: 14px !important;
+        font-family: Inter;
+        font-weight: 600;
+        line-height: 16.94px;
+        /* padding: 16px; */
+    }
+    
+    .date-area {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .calendar-area {
+        background-color: #9B51E0;
+        border-radius: 8px;
+        width: 32px;
+        height: 32px;
+    }
+    
+    .day {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: Inter;
+        line-height: 19.62px;
+        text-align: center;
+        padding-left: 10px;
+    }
+    
+    .day {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: Inter;
+        line-height: 19.62px;
+        text-align: center;
+        padding-left: 10px;
+        padding-top: 2px;
+    }
+    
+    .other-day {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 14px;
+        font-weight: 400;
+        font-family: Inter;
+        line-height: 15.26px;
+        text-align: left !important;
+        padding-left: 10px;
+    }
+    
+    .coins img {
+        width: 40%;
+        height: auto;
+    }
+    
+    .coin-bounce-left {
+        margin-left: 40px;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-name: bounce;
+        animation-timing-function: linear;
+    }
+    
+    .coin-bounce-right {
+        margin-right: 30px;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-name: bounce;
+        animation-timing-function: linear;
+    }
+    
+    @keyframes bounce {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-100px);
+        }
+        100% {
+            transform: translateY(-20px);
+        }
+    }
+    
+    .loading-txt {
+        animation: loadTxt;
+        animation-duration: 4s;
+        animation-fill-mode: linear;
+    }
+    
+    @keyframes loadTxt {
+        from {
+            transform: translateY(30px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    
+    .loading {
+        animation: loadIn;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes loadIn {
+        from {
+            transform: translateY(50px);
+        }
+        to {
+            transform: translateY(0);
+        }
+    }
+    
+    .footer-image {
+        position: absolute;
+        bottom: 0px !important;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer-image img {
+        height: auto;
+    }
+
+    .disco-light{  
+        background: linear-gradient(#FFE500 0%, rgba(255, 231, 23, 0.67) 13%,rgba(255, 233, 36, 0.49) 21%,
+        rgba(255, 234, 47, 0.34) 30%, rgba(255, 234, 56, 0.22) 39%, rgba(255, 235, 62, 0.12) 48%, rgba(255, 236, 67, 0.05) 58%, 
+        rgba(255, 236, 70, 0.01) 68%, rgba(255, 236, 71, 0) 81%, transparent 100%); 
+        opacity:0.4;
+    }
+
+    .light1 {
+        height:921px;
+        width:150px;
+        transform: rotate(149deg);
+    }
+    .light2 {
+        height:971px;
+        width:158px;
+        transform: rotate(180deg);
+    }
+    .light3{
+        height:921px;
+        width:150px;
+        transform: rotate(-149deg);
+    }
+
+    .light-pad{
+        padding-left: 124px !important;
+        padding-right: 124px !important;
+        width: 100% !important;
+        justify-content: center !important;
+		  text-align:  center !important;
+    }
+    
+    .light-move1 {
+        position: absolute;
+        animation: lights-move 4s linear infinite;
+        transform-origin: bottom;
+        bottom: -70px;
         margin-left: 100px !important;
-        margin-right: 100px !important;
-        padding: 20px;
+		  margin-right: 800px !important;
     }
-    .footer-image img {
-        width: 60%;
-        height: auto;
-    }
-}
 
-@media screen and (max-width: 660px) {
-    .content {
-        /* padding-top: 50px; */
-        padding: 50px 0px 0px 0px;
+    .light-move2 {
+        position: absolute;
+        animation: lights-move 4s linear infinite;
+        transform-origin: bottom;
+        bottom: 0px;
     }
-    .main-content {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .top-image {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-    .header-info {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .header-msg {
-        font-size: 40px;
-        line-height: 91%;
-    }
-    .promo-info {
-        font-size: 16px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .game-info-container {
-        margin-left: 60px !important;
-        margin-right: 60px !important;
-        padding: 20px;
-    }
-    .footer-image img {
-        width: 80%;
-        height: auto;
-    }
-}
 
-@media screen and (max-width: 480px) {
-    .content {
-        /* padding-top: 50px; */
-        padding: 50px 0px 0px 0px;
+    .light-move3 {
+        position: absolute;
+        animation: lights-move 4s linear infinite;
+        transform-origin: bottom;
+        bottom: -70px;
+        margin-left: 800px !important;
+		  margin-right: 100px !important;
     }
-    .main-content {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .top-image {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-    .header-info {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .header-msg {
-        font-size: 35px;
-        line-height: 91%;
-    }
-    .promo-info {
-        font-size: 12px;
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-    .game-warning {
-        font-size: 10px
-    }
-    .game-info-container {
-        margin-left: 50px !important;
-        margin-right: 50px !important;
-        padding: 0px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .footer-image img {
-        width: 90%;
-        height: auto;
-    }
-}
 
-@media screen and (max-width: 320px) {
-    .content {
-        /* padding-top: 50px; */
-        padding: 50px 0px 0px 0px;
+    
+    @keyframes lights-move {
+        0% {
+            transform: rotate(10deg);
+        }
+        100% {
+            transform: rotate(-10deg);
+        }
     }
-    .main-content {
-        padding-left: 0px;
-        padding-right: 0px;
+    
+    @media screen and (max-width: 1480px) {
+        .main-content {
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+        .top-image {
+            padding-left: 100px !important;
+            padding-right: 100px !important;
+        }
+        .header-info {
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        .header-msg {
+            font-size: 70px;
+            line-height: 91%;
+        }
+        .promo-info {
+            font-size: 29.43px;
+            padding-left: 120px;
+            padding-right: 120px;
+        }
+        .game-info-container {
+            margin-left: 260px !important;
+            margin-right: 260px !important;
+            padding: 20px;
+        }
+        .coins {
+            width: 90%;
+        }
+        .coin-bounce-left {
+            margin-left: 0px;
+            margin-right: 120px;
+        }
+        .coin-bounce-right {
+            margin-right: -120px;
+        }
+        .light1 {
+            height:921px;
+            width:150px;
+        }
+        .light2 {
+            height:971px;
+            width:158px;
+        }
+        .light3{
+            height:921px;
+            width:150px;
+        }
+    
+        .light-pad{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        
+        .light-move1 {
+            bottom: -70px;
+				margin-left: 100px !important;
+				margin-right: 800px !important;
+        }
+    
+    
+        .light-move3 {
+            bottom: -70px;
+				margin-left: 800px !important;
+				margin-right: 100px !important;
+        }
+        .footer-image img {
+            width: 40%;
+            height: auto;
+        }
     }
-    .top-image {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
+    
+    @media screen and (max-width: 1316px) {
+        .main-content {
+            padding-left: 190px;
+            padding-right: 190px;
+        }
+        .top-image {
+            padding-left: 100px !important;
+            padding-right: 100px !important;
+        }
+        .header-info {
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+        .header-msg {
+            font-size: 70px;
+            line-height: 91%;
+        }
+        .promo-info {
+            font-size: 29.43px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .game-info-container {
+            margin-left: 200px !important;
+            margin-right: 200px !important;
+            padding: 20px;
+        }
+        .coins {
+            width: 90%;
+        }
+        .coin-bounce-left {
+            margin-left: 0px;
+            margin-right: 120px;
+        }
+        .coin-bounce-right {
+            margin-right: -120px;
+        }
+        .light1 {
+            height:821px;
+            width:150px;
+        }
+        .light2 {
+            height:871px;
+            width:158px;
+        }
+        .light3{
+            height:821px;
+            width:150px;
+        }
+    
+        .light-pad{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        
+         .light-move1 {
+            bottom: -70px;
+				margin-left: 100px !important;
+				margin-right: 800px !important;
+        }
+    
+    
+        .light-move3 {
+            bottom: -70px;
+				margin-left: 800px !important;
+				margin-right: 100px !important;
+        }
+        .footer-image img {
+            width: 20%;
+            height: auto;
+        }
     }
-    .header-info {
-        padding-left: 20px;
-        padding-right: 20px;
+    
+    @media screen and (max-width: 1200px) {
+        .main-content {
+            padding-left: 190px;
+            padding-right: 190px;
+        }
+        .top-image {
+            padding-left: 100px !important;
+            padding-right: 100px !important;
+        }
+        .header-info {
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+        .header-msg {
+            font-size: 60px;
+            line-height: 91%;
+        }
+        .promo-info {
+            font-size: 20.43px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .game-info-container {
+            margin-left: 100px !important;
+            margin-right: 100px !important;
+            padding: 20px;
+        }
+        .coins {
+            width: 90%;
+        }
+        .coin-bounce-left {
+            margin-left: -120px;
+            margin-right: 180px;
+        }
+        .coin-bounce-right {
+            margin-right: -180px;
+        }
+        .light1 {
+            height:621px;
+            width:120px;
+        }
+        .light2 {
+            height:671px;
+            width:138px;
+        }
+        .light3{
+            height:621px;
+            width:120px;
+        }
+    
+        .light-pad{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        
+         .light-move1 {
+            bottom: -40px;
+				margin-left: 100px !important;
+				margin-right: 800px !important;
+        }
+    
+        .light-move3 {
+            bottom: -40px;
+				margin-left: 800px !important;
+				margin-right: 100px !important;
+        }
+
+		  body{
+            position: fixed;
+				height: calc(100vh - 0px);
+        }
+		  
+        .footer-image img {
+            width: 50%;
+            height: auto;
+        }
     }
-    .header-msg {
-        font-size: 35px;
-        line-height: 91%;
+    
+    @media screen and (max-width: 1024px) {
+        .main-content {
+            padding-left: 84px;
+            padding-right: 84px;
+        }
+        .top-image {
+            padding-left: 100px !important;
+            padding-right: 100px !important;
+        }
+        .header-info {
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+        .header-msg {
+            font-size: 60px;
+            line-height: 91%;
+        }
+        .promo-info {
+            font-size: 20.43px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .game-info-container {
+            margin-left: 160px !important;
+            margin-right: 160px !important;
+            padding: 20px;
+        }
+        .coins {
+            width: 90%;
+        }
+        .coin-bounce-left {
+            margin-left: -120px;
+            margin-right: 180px;
+        }
+        .coin-bounce-right {
+            margin-right: -180px;
+        }
+        .light1 {
+            height:621px;
+            width:120px;
+        }
+        .light2 {
+            height:671px;
+            width:138px;
+        }
+        .light3{
+            height:621px;
+            width:120px;
+        }
+    
+        .light-pad{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        
+         .light-move1 {
+            bottom: -20px;
+				margin-left: 100px !important;
+				margin-right: 800px !important;
+        }
+    
+        .light-move3 {
+            bottom: -20px;
+				margin-left: 800px !important;
+				margin-right: 100px !important;
+        }
+		  body{
+            position: fixed;
+				height: calc(100vh - 0px);
+        }
+
+        .footer-image img {
+            width: 60%;
+            height: auto;
+        }
     }
-    .promo-info {
-        font-size: 12px;
-        padding-left: 20px;
-        padding-right: 20px;
+    
+    @media screen and (max-width: 900px) {
+        .main-content {
+            padding-left: 84px;
+            padding-right: 84px;
+        }
+        .top-image {
+            padding-left: 100px !important;
+            padding-right: 100px !important;
+        }
+        .header-info {
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+        .header-msg {
+            font-size: 60px;
+            line-height: 91%;
+        }
+        .promo-info {
+            font-size: 20.43px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .game-info-container {
+            margin-left: 100px !important;
+            margin-right: 100px !important;
+            padding: 20px;
+        }
+        .coins {
+            width: 90%;
+        }
+        .coin-bounce-left {
+            margin-left: -120px;
+            margin-right: 180px;
+        }
+        .coin-bounce-right {
+            margin-right: -180px;
+        }
+        .light1 {
+            height:421px;
+            width:90px;
+        }
+        .light2 {
+            height:671px;
+            width:118px;
+        }
+        .light3{
+            height:421px;
+            width:90px;
+        }
+        
+        .light-pad{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        
+         .light-move1 {
+            bottom: -20px;
+				margin-left: 200px !important;
+				margin-right: 800px !important;
+        }
+    
+        .light-move3 {
+            bottom: -20px;
+				margin-left: 740px !important;
+				margin-right: 160px !important;
+        }
+
+        body{
+            position: fixed;
+				height: calc(100vh - 0px);
+        }
+        .footer-image img {
+            width: 60%;
+            height: auto;
+        }
     }
-    .game-warning {
-        font-size: 10px
+    
+    @media screen and (max-width: 768px) {
+        .main-content {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .top-image {
+            padding-left: 100px !important;
+            padding-right: 100px !important;
+        }
+        .header-info {
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+        .header-msg {
+            font-size: 40px;
+            line-height: 91%;
+        }
+        .promo-info {
+            font-size: 16px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .game-info-container {
+            margin-left: 100px !important;
+            margin-right: 100px !important;
+            padding: 20px;
+        }
+        .coins {
+            width: 90%;
+        }
+        .coin-bounce-left {
+            margin-left: -120px;
+            margin-right: 180px;
+        }
+        .coin-bounce-right {
+            margin-right: -180px;
+        }
+        
+        .light1 {
+            height:421px;
+            width:90px;
+        }
+        .light2 {
+            height:671px;
+            width:118px;
+        }
+        .light3{
+            height:421px;
+            width:90px;
+        }
+    
+        .light-pad{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        
+         .light-move1 {
+            bottom: -40px;
+				margin-left: 240px !important;
+				margin-right: 760px !important;
+        }
+    
+        .light-move3 {
+            bottom: -40px;
+				margin-left: 760px !important;
+				margin-right: 240px !important;
+        }
+        body{
+            position: fixed;
+				height: calc(100vh - 0px);
+        }
+        .footer-image img {
+            width: 60%;
+            height: auto;
+        }
+        
     }
-    .game-info-container {
-        margin-left: 20px !important;
-        margin-right: 20px !important;
-        padding: 0px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+    
+    @media screen and (max-width: 660px) {
+        .content {
+            /* padding-top: 50px; */
+            padding: 50px 0px 0px 0px;
+        }
+        .main-content {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        .top-image {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+        .header-info {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .header-msg {
+            font-size: 40px;
+            line-height: 91%;
+        }
+        .promo-info {
+            font-size: 16px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        .game-info-container {
+            margin-left: 60px !important;
+            margin-right: 60px !important;
+            padding: 20px;
+        }
+        .coins {
+            width: 90%;
+        }
+        .coin-bounce-left {
+            margin-left: -120px;
+            margin-right: 160px;
+        }
+        .coin-bounce-right {
+            margin-right: -160px;
+        }
+        .light1 {
+            height:421px;
+            width:90px;
+        }
+        .light2 {
+            height:671px;
+            width:118px;
+        }
+        .light3{
+            height:421px;
+            width:90px;
+        }
+    
+        .light-pad{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        
+         .light-move1 {
+            bottom: -20px;
+				margin-left: 300px !important;
+				margin-right: 700px !important;
+        }
+    
+        .light-move3 {
+            bottom: -20px;
+				margin-left: 700px !important;
+				margin-right: 300px !important;
+        }
+		  
+        body{
+            position: fixed;
+				height: calc(100vh - 0px);
+        }
+        .footer-image img {
+            width: 100%;
+            height: auto;
+        }
     }
-    .footer-image img {
-        width: 90%;
-        height: auto;
+    
+    @media screen and (max-width: 480px) {
+        .content {
+            /* padding-top: 50px; */
+            padding: 50px 0px 0px 0px;
+        }
+        .main-content {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .top-image {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+        .header-info {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .header-msg {
+            font-size: 35px;
+            line-height: 91%;
+        }
+        .promo-info {
+            font-size: 12px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        .game-warning {
+            font-size: 10px
+        }
+        .game-info-container {
+            margin-left: 50px !important;
+            margin-right: 50px !important;
+            padding: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .coins {
+            width: 90%;
+        }
+        .coin-bounce-left {
+            margin-left: -100px;
+            margin-right: 120px;
+        }
+        .coin-bounce-right {
+            margin-right: -120px;
+        }
+        .light1 {
+            height:321px;
+            width:90px;
+        }
+        .light2 {
+            height:571px;
+            width:118px;
+        }
+        .light3{
+            height:321px;
+            width:90px;
+        }
+    
+        .light-pad{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        
+         .light-move1 {
+            bottom: 0px;
+				margin-left: 300px !important;
+				margin-right: 700px !important;
+        }
+    
+        .light-move3 {
+            bottom: 0px;
+				margin-left: 700px !important;
+				margin-right: 300px !important;
+        }
+        body{
+            position: fixed;
+				height: calc(100vh - 0px);
+        }
+        .footer-image img {
+            width: 100%;
+            height: auto;
+        }
     }
-}
+    
+    @media screen and (max-width: 320px) {
+        .content {
+            /* padding-top: 50px; */
+            padding: 50px 0px 0px 0px;
+        }
+        .main-content {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .top-image {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+        .header-info {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .header-msg {
+            font-size: 35px;
+            line-height: 91%;
+        }
+        .promo-info {
+            font-size: 12px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .game-warning {
+            font-size: 10px
+        }
+        .game-info-container {
+            margin-left: 20px !important;
+            margin-right: 20px !important;
+            padding: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .btn-warning {
+            margin-bottom: 30px !important;
+        }
+        .coins {
+            width: 90%;
+        }
+        .coin-bounce-left {
+            margin-left: -80px;
+            margin-right: 90px;
+        }
+        .coin-bounce-right {
+            margin-right: -90px;
+        }
+        .light1 {
+            height: 221px;
+            width: 70px;
+        }
+        .light2 {
+            height: 471px;
+            width: 98px;
+        }
+        .light3{
+            height: 221px;
+            width: 70px;
+        }
+    
+        .light-pad{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        
+         .light-move1 {
+            bottom: -20px;
+				margin-left: 400px !important;
+				margin-right: 700px !important;
+        }
+    
+        .light-move3 {
+            bottom: -20px;
+				margin-left: 700px !important;
+				margin-right: 400px !important;
+        }
+        body{
+				position: fixed;
+				height: calc(100vh - 0px);
+        }
+        .footer-image img {
+            width: 100%;
+            height: auto;
+        }
+    }
